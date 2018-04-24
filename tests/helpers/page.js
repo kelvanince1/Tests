@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer');
 const sessionFactory = require('../factories/sessionFactory');
 const userFactory = require('../factories/userFactory');
 
+// Test
 class CustomPage {
   static async build() {
     const browser = await puppeteer.launch({
